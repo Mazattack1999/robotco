@@ -13,20 +13,40 @@ header {
     text-align: center;
 }
 
-header nav {
+nav {
     padding: 30px 15px 15px 15px;
 }
 
+nav a {
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+}
+
 #logo-container {
-    padding-top: 10px;
+    display: inline-block;
+    background-color: #47a0ce;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+}
+
+#logo-container h2 {
+    margin-bottom: 0;
 }
 
 #hero{
-
-}
-
-.callout {
-
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 60px 15px;
+    font-size: 42px;
+    background-image: url("../images/background.png");
 }
 
 .bg-dark {
@@ -36,4 +56,15 @@ header nav {
 
 .bg-dark a {
     color: #47a0ce;
+}
+
+.callout {
+    border: 2px solid #47a0ce;
+    margin: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
 }
